@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script src="SCORMGeneric.js" type="text/javascript" language="JavaScript">
+	</script>
+	<script type="text/javascript" language="JavaScript">
+		function init() {
+			if (SCOInitialize() == "true") {
+				objAPI.LMSSetValue("cmi.core.lesson_status","completed");
+				console.log("meh");
+			}
+		}
+
+		function score(){
+			objAPI.LMSSetValue("cmi.core.score.raw","59");
+			objAPI.LMSSetValue("cmi.core.score.max","100");
+			objAPI.LMSSetValue("cmi.core.score.min","0");
+
+		}
+	</script>
+	<title>Some picture 2</title>
+</head>
+<body bgcolor="#FFFFFF" onload="init()" onunload="SCOFinish()"
+onbeforeunload="SCOFinish()">
+<button onclick="score()">Score it!</button>
+<img src="myimage.jpg" alt="Caption for the image" width="600" height="400" />
+<body>
+	</html>

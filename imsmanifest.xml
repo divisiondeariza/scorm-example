@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-AE70DE60E55C281F79EDE08E5C0212AE" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-953034160293E47C60A12CE9B4023DF2">
+    <organization identifier="ORG-953034160293E47C60A12CE9B4023DF2" structure="hierarchical">
+      <title>Cier</title>
+      <item identifier="ITEM-59B6A33E5E4722888E5646C65BF6C237" isvisible="true" identifierref="RES-7AEC00CB721D18F9DE71F1CE7A0BB8F4">
+        <title>Hello world</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-7AEC00CB721D18F9DE71F1CE7A0BB8F4" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <file href="index.html" />
+    </resource>
+  </resources>
+</manifest>
+
